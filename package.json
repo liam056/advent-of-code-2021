@@ -1,0 +1,22 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Liam Davies <liam@imtl.co.uk>",
+  "license": "UNLICENCED",
+  "private": true,
+  "scripts": {
+    "format": "yarn prettier --write .",
+    "11": "node ./1/part1.js",
+    "12": "node ./1/part2.js",
+    "21": "node ./2/part1.js",
+    "22": "node ./2/part2.js",
+    "31": "node ./3/part1.js",
+    "32": "node ./3/part2.js",
+    "41": "node ./4/part1.js",
+    "42": "node ./4/part2.js"
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
