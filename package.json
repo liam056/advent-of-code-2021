@@ -14,7 +14,13 @@
     "31": "node ./3/part1.js",
     "32": "node ./3/part2.js",
     "41": "node ./4/part1.js",
-    "42": "node ./4/part2.js"
+    "42": "node ./4/part2.js",
+    "51": "node ./5/part1.js",
+    "52": "node ./5/part2.js",
+    "61": "node ./6/part1.js",
+    "62": "node ./6/part2.js",
+    "71": "node ./7/part1.js",
+    "72": "node ./7/part2.js"
   },
   "dependencies": {
     "prettier": "^2.5.1"

@@ -56,7 +56,7 @@ for (let i = 0; i < drawnNumbers.length; i++) {
         return boardTotal + rowTotal;
       }, 0);
 
-      console.log(`Winning Board Total: ${total*drawnNumber}`);
+      console.log(`Winning Board Total: ${total * drawnNumber}`);
 
       won = true;
     }

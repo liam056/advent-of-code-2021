@@ -42,20 +42,20 @@ for (let i = 0; i < drawnNumbers.length; i++) {
 
   boards.forEach((board) => {
     if (isBoardWinner(board)) {
-      if(boards.length === 1) {
+      if (boards.length === 1) {
         const total = board.reduce((boardTotal, row) => {
           const rowTotal = row.reduce((rowTotal, number) => {
             if (number !== null) {
               rowTotal += parseInt(number);
             }
-  
+
             return rowTotal;
           }, 0);
-  
+
           return boardTotal + rowTotal;
         }, 0);
 
-        console.log(`Winning Board Total: ${total*drawnNumber}`);
+        console.log(`Winning Board Total: ${total * drawnNumber}`);
       }
 
       const index = boards.indexOf(board);
