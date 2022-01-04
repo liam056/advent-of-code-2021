@@ -20,7 +20,9 @@
     "61": "node ./6/part1.js",
     "62": "node ./6/part2.js",
     "71": "node ./7/part1.js",
-    "72": "node ./7/part2.js"
+    "72": "node ./7/part2.js",
+    "81": "node ./8/part1.js",
+    "82": "node ./8/part2.js"
   },
   "dependencies": {
     "prettier": "^2.5.1"

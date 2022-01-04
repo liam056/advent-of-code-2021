@@ -18,10 +18,10 @@ console.log(`Max: ${maxPosition}, Min: ${minPosition}`);
 let minFuel;
 let position;
 
-for(let i = minPosition; i <= maxPosition; i++) {
+for (let i = minPosition; i <= maxPosition; i++) {
   const fuelForPosition = calculateFuelForPosition(crabPositions, i);
 
-  if(!minFuel || fuelForPosition < minFuel) {
+  if (!minFuel || fuelForPosition < minFuel) {
     minFuel = fuelForPosition;
     position = i;
   }
@@ -30,10 +30,9 @@ for(let i = minPosition; i <= maxPosition; i++) {
 console.log(`Quickest Fuel Position: ${minFuel} at ${position}`);
 
 function calculateFuelForPosition(crabPositions, position) {
-
   let fuel = 0;
 
-  for(i in crabPositions) {
+  for (i in crabPositions) {
     fuel += Math.abs(crabPositions[i] - position);
   }
 
